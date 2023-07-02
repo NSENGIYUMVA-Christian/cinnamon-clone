@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+    background-color: rgb(28, 28, 28);
+    background-image: url(/images/cinnamonbg.png);
+    color: #F6F6F6;
+    margin-bottom: 96px;
+}
+nav{
+    
+}
+
+#mobileMenu{
+    position: fixed;
+    inset: 0px;
+    overflow-y: auto;
+    background-color: rgb(28, 28, 28);
+    background-image: url(/images/cinnamonbg.png);
+    height: 100vh;
+
+}
+
+
+
+/* hero section */
+
+
+
+/* End of header */
+
+
+/* Main section */
+.main-section-1-img:hover{
+    transform: scale(1.1);
+}
